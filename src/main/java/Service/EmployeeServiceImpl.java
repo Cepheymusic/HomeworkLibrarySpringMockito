@@ -14,7 +14,6 @@ import java.util.Map;
 public class EmployeeServiceImpl implements EmployeeService {
     private final Map<String, Employee> employeeMap;
     public EmployeeServiceImpl() {
-
         this.employeeMap = new HashMap<>();
     }
     public static final int MAX_EMPLOYEE_COUNT = 4;

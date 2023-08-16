@@ -3,7 +3,6 @@ package Service;
 import Dto.Employee;
 
 import java.util.Collection;
-
 public interface EmployeeService {
     Employee addEmployee(String firstName, String lastName, double salary, int department);
 
